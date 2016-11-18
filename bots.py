@@ -14,6 +14,8 @@ class Bot():
                 self.ranged_hit_percent = ranged_hit_percent
                 self.ranged_dmg = ranged_dmg
                 self.evasion_percent = evasion_percent
+                self.pushing_power = pushing_power
+                self.holding_power = holding_power
 
         def print_stats(self):
                 print(self.name+' HP: '+str(self.hp)+'/'+str(self.hp_max))
