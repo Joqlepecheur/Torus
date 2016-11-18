@@ -3,6 +3,9 @@ class Group():
     def __init__(self, group_name):
         
         self.group_name = group_name
+        self.move_order = move_order # right to left = -1 ; stay = 0 ; left to right = 1
+        self.melee_stance = melee_stance # hold = 0 ; through = 1 ;
+        self.range_stance = range_stance # hold_fire = 0 ; fire_once = 1 ; fire_at_will = 2
         self.bot_list = list()
 
     def display_group(self):
