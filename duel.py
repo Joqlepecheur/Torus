@@ -6,8 +6,8 @@ from group import Group
 
 #creating 2 bots
 
-bot1 = Bot('Bob', 20, 20, 10, 2, 60, 5, 40, 3, 25)
-bot2 = Bot('Bill', 20, 20, 10, 2, 60, 5, 40, 3, 25)
+bot1 = Bot('Bob', 20, 20, 10, 2, 60, 5, 40, 3, 25, 2, 3)
+bot2 = Bot('Bill', 20, 20, 10, 2, 60, 5, 40, 3, 25, 2, 3)
 
 #let's fight melee!
 
